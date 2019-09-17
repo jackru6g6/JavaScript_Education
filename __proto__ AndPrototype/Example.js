@@ -10,6 +10,9 @@ function Person(name, id) {
 
 var Jack = new Person("Jack", "00F549");
 
+var Frank = new Person('Frank', 'Doe');
+
+var KK = new Person('KK',"00DDDD");
 ///改善：
 ///1.將方法拉出，並已prototype給予
 function Person_Improve(name, id) {
