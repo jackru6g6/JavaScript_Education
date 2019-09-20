@@ -7,7 +7,7 @@ function CallThis() {
     console.log(`這是this的test參數: ${this.test}`);
 }
 
-//CallThis();
+CallThis();
 
 function Functio_1() {
     console.log(`這是Functio_1內的global.test: ${this.test}`);
@@ -21,7 +21,7 @@ function Functio_1() {
 Functio_1();
 ///結論：如果直接調用函式，this都會指向window(global)
 
-///這邊舉例$.each()
-$.each(["1","2","3"],function() {
-    console.log(this);
-});
+// ///這邊舉例$.each()
+// $.each(["1","2","3"],function() {
+//     console.log(this);
+// });
