@@ -20,9 +20,9 @@ function Person_Improve(name, id) {
     this.id = id;
 }
 
-Person_Improve.prototype.callName_Prop = function(){
-    console.log(`我的名子是${this.name}，ID為${this.id}`);
-}
+// Person_Improve.prototype.callName_Prop = function(){
+//     console.log(`我的名子是${this.name}，ID為${this.id}`);
+// }
 
 var Jack_Improve = new Person_Improve("Warren","F549");
 console.log(Jack_Improve);
